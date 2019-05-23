@@ -25,8 +25,8 @@
 	echo "" >> /etc/squid/squid.conf
 	echo "" >> /etc/squid/squid.conf
 	echo "# ACESSOS ACL" >> /etc/squid/squid.conf
-	echo "http_access allow accept" >> /etc/squid/squid.conf
-	echo "http_access allow ip" >> /etc/squid/squid.conf
+	echo "http_access allow all" >> /etc/squid/squid.conf
+	echo "http_access allow all" >> /etc/squid/squid.conf
 	echo "http_access deny all" >> /etc/squid/squid.conf
 	echo "cache deny all" >> /etc/squid/squid.conf
 	
