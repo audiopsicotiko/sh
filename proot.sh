@@ -1,4 +1,9 @@
 #!/bin/bash
+
+command="proot"
+command+=" --link2symlink"
+command+=" -0"
+command+=" -r $folder"
 command+=" -b /dev"
 command+=" -b /proc"
 ## uncomment the following line to have access to the home directory of termux
