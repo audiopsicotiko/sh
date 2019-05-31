@@ -45,6 +45,6 @@ RUN echo "DROPBEAR_RECEIVE_WINDOW=65536" >> /etc/default/dropbear
 service dropbear restart
 
 #descargar ngrok
-wget https//weaita.000webhostapp.com/ngrok
+wget https://weaita.000webhostapp.com/ngrok
 #dar permisos a ngrok
 chmod +x /ngrok
